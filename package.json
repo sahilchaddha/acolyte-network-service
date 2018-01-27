@@ -1,0 +1,21 @@
+{
+  "name": "acolyte-network-service",
+  "version": "1.0.0",
+  "description": "Network Service for Acolyte Components",
+  "main": "NetworkService",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/sahilchaddha/acolyte-network-service"
+  },
+  "author": "Sahil Chaddha",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.83.0"
+  },
+  "scripts": {
+    "test": "node NetworkService_Test.js"
+  }
+}
