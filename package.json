@@ -2,7 +2,7 @@
   "name": "acolyte-network-service",
   "version": "1.0.0",
   "description": "Network Service for Acolyte Components",
-  "main": "NetworkService",
+  "main": "./src/NetworkService.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,6 +16,6 @@
     "request": "^2.83.0"
   },
   "scripts": {
-    "test": "node NetworkService_Test.js"
+    "test": "node ./tests/NetworkService_Test.js"
   }
 }

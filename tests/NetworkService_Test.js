@@ -1,4 +1,4 @@
-var networkService = require('./NetworkService.js');
+var networkService = require('../src/NetworkService.js');
 
 networkService.get({
         endPoint: "http://www.google.com",
